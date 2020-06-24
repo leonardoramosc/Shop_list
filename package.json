@@ -1,0 +1,18 @@
+{
+  "name": "budget_app",
+  "version": "1.0.0",
+  "description": "Aplicacion de escritorio para contabilidad personal",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js"
+  },
+  "author": "leonardo ramos",
+  "license": "MIT",
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "promise-mysql": "^4.1.3"
+  },
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}
